@@ -67,4 +67,56 @@ export const FooterStyle = styled.footer`
     .social-icons svg:hover path{
         fill:hsl(180, 66%, 49%);
     }
+
+    @media screen and (min-width: 768px) {
+     padding: 3em 10% 3.5em;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+
+     .logo {
+        margin-top: 0;
+        margin-right: 5%;
+    }
+
+     .informations {
+         font-size: .8em;
+         display: flex;
+         width: 40%;
+         justify-content: space-between;
+     }
+
+     .informations .headers {
+        margin: 0;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .informations .headers h5 {
+        margin-bottom: .5em;
+    }
+
+    .social-icons {
+        margin: 0 0 0 2%;
+        width: 9.5rem;
+    }
+     
+}
+
+@media screen and (min-width: 1048px){
+    .informations {
+         font-size: 1em;
+         display: flex;
+         width: 40%;
+         justify-content: space-between;
+     }
+
+     .logo {
+        margin-right: 0%;
+    }
+
+    .social-icons {
+        margin: 0;
+    }
+}
 `

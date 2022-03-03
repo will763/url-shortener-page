@@ -12,4 +12,9 @@ export const SampleStyle = styled.div`
     align-items: center;
     justify-content: center;
     color: white;
+
+    @media screen and (min-width: 768px){
+        height: 11.5em;
+        background-image: url('/images/bg-boost-desktop.svg');
+    }
 `

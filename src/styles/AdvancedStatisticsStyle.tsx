@@ -28,4 +28,32 @@ export const AdvancedStatisticsStyle = styled.section`
   align-items: center;
   text-align: center;
   }
+
+  @media screen and (min-width: 768px) {
+    p {
+    width: 45%;
+   }
+
+   .container {
+    padding: 0 10%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+   }
+
+   .container div:nth-child(3) {
+    margin-top: 2rem;
+   }
+
+   .container div:nth-child(5) {
+    margin-top: 4rem;
+   }
+
+  }
+
+  @media screen and (min-width: 1048px) {
+    p {
+    width: 30%;
+   }
+  }
 `;

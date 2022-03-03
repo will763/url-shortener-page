@@ -57,4 +57,31 @@ export const LinkShortStyle = styled.div<Props>`
         color: white;
         cursor: pointer;
     }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 3em;
+
+    .link-full {
+        margin-right: auto;
+    }
+
+    .link-full::after {
+        display: none;
+    }
+
+    .link-shortener {
+        max-width: 20%;
+        margin-top: 0rem;
+    }
+
+    button {
+        height: 2.5em;
+        margin-top: 0;
+        width: 6rem;
+
+    }
+}
 `;

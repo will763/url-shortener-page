@@ -9,4 +9,10 @@ export const IllustrationStyle = styled.div`
         width: 120%;
         transform: translateX(10%);
     }
+
+    @media screen and (min-width: 768px){
+        img {
+        transform: translateX(20%);
+      }
+    }
 `

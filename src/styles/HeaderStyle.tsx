@@ -85,4 +85,67 @@ export const HeaderStyle = styled.header<menu>`
     filter: brightness(110%);
   }
 
+  @media screen and (min-width: 768px){
+    padding: 0 10%;
+
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    color: hsl(0, 0%, 75%);
+    position: relative;
+    top: 0rem;
+    left: 0%;
+    right: 0%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius:0rem;
+   }
+
+   .menu nav {
+    margin-left: 2.8rem;
+    width:12.5rem;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+   }
+
+   .menu nav::after{
+    display: none;
+  }
+
+   .menu nav a {
+    color: hsl(0, 0%, 75%);
+    font-size: .75em;
+    transition: color .28s;
+  }
+
+   .menu .enter-section {
+    font-size: .75em;
+    width: 9.5rem;
+    padding-top: 0em;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   .menu .enter-section .sign-up{
+    width: 7em;
+    color: white;
+    padding: .5em 0;
+  }
+
+   .icon-menu {
+     display: none;
+   }
+
+   .menu nav a:hover {
+    color: hsl(257, 27%, 26%);
+   }
+
+  }
+
 `;

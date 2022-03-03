@@ -72,5 +72,44 @@ export const ShortenerLinkStyle = styled.section`
     .shortener-input .input-container input:focus::placeholder {
         color:hsl(0, 87%, 67%);
     }
+
+    @media screen and (min-width: 768px) {
+        height: 6em;
+
+    .shortener-input {
+        padding: 0 5%;
+        flex-direction: row;
+        border-radius: .3rem;
+        width: 80%;
+        background-image: url('/images/bg-shorten-desktop.svg');
+        background-position: 0% 0%;
+        background-size: cover;
+    }
+
+    .shortener-input .input-container{
+        position: relative;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .shortener-input .input-container input {
+        border: none;
+        width: 96%;
+        border-radius: .4rem;
+    }
+
+    .shortener-input .input-container .warning {
+        display: none;
+        position: absolute;
+        top: 100%;
+        font-size: .6em;
+    }
+
+    .shortener-input  button {
+        width: 9rem;
+        border-radius: .4rem;
+    }
+
+    }
     
 `

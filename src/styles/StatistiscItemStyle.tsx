@@ -40,4 +40,37 @@ export const StatistiscItemStyle = styled.div`
     width: 86%;
     color: hsl(0, 0%, 75%);
   }
+  
+  @media screen and (min-width: 768px) {
+    padding: 0 1rem;
+    width: auto;
+    height: 13em;
+    align-items: flex-start;
+
+    h2 {
+    text-align: left;
+    font-size: 1em;
+  }
+   
+   
+    p {
+    font-size: .7em;
+    width: 100%;
+    text-align: left;
+    color: hsl(0, 0%, 75%);
+   }
+
+  }
+
+  @media screen and (min-width: 1025px){
+    padding: 0 1.2rem;
+     
+    h2 {
+    font-size: 1.2em;
+  }
+    p {
+    font-size: .8em;
+    }
+  }
+
 `;
