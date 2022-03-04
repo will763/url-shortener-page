@@ -12,8 +12,6 @@ Users should be able to:
 
 ### Screenshot
 
-  <img style="width:90%;height:42vh" src="https://user-images.githubusercontent.com/66382974/156737997-ab8daabc-b204-42e1-b2b8-51c3596c25cd.png" alt="sample" />
-
 ### Links
 
 - Api: [https://github.com/will763/Url-Shortener-Api](https://github.com/will763/Url-Shortener-Api)
